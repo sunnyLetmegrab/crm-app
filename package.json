@@ -4,25 +4,26 @@
     "main": "index.mjs",
     "type": "module",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "node swagger.mjs && nodemon index.mjs",
-      "swagger": "node swagger.mjs"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node swagger.mjs && nodemon index.mjs",
+        "production": "node index.mjs",
+        "swagger": "node swagger.mjs"
     },
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
-      "@deskree/postman-collection-generator": "^1.1.2",
-      "body-parser": "^1.20.2",
-      "express": "^4.19.2",
-      "express-validator": "^7.1.0",
-      "mongoose": "^8.4.4",
-      "swagger-jsdoc": "^6.2.8",
-      "swagger-ui-express": "^5.0.1"
+        "@deskree/postman-collection-generator": "^1.1.2",
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2",
+        "express-validator": "^7.1.0",
+        "mongoose": "^8.4.4",
+        "ngrok": "^5.0.0-beta.2",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1"
     },
     "devDependencies": {
-      "nodemon": "^3.1.4",
-      "swagger-autogen": "^2.23.7"
+        "nodemon": "^3.1.4",
+        "swagger-autogen": "^2.23.7"
     }
-  }
-  
+}
