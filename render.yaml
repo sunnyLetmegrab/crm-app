@@ -1,0 +1,11 @@
+# Exported from Render on 2024-07-01T06:51:34Z
+services:
+- type: web
+  name: crm-app
+  runtime: node
+  repo: https://github.com/sunnyLetmegrab/crm-app
+  plan: free
+  region: singapore
+  buildCommand: npm i
+  startCommand: npm run production
+version: "1"
